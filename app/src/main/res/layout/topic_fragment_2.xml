@@ -19,4 +19,9 @@
             android:textColor="@color/mainPage_searchBox_color"
             android:textSize="@dimen/mainPage_top_textSize" />
     </RelativeLayout>
+
+    <com.example.superbostudy.utils.VerticalViewPager
+        android:id="@+id/vp_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.superbostudy.utils.VerticalViewPager>
 </LinearLayout>
