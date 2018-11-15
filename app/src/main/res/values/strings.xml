@@ -1,11 +1,27 @@
 <resources>
     <string name="app_name">超博</string>
+    
+    <string name="day_one_title">第一题</string>
+    <string name="day_two_title">第二题</string>
+    <string name="day_three_title">第三题</string>
+    <string name="day_four_title">第四题</string>
 
+    <!-- login page -->
+    <string name="login_page_usr_hint">请输入用户名</string>
+    <string name="login_page_pass_hint">请输入密码</string>
+    <string name="login_page_forget_pass">忘记密码?</string>
+    <string name="login_page_register">注册</string>
+    <string name="login_page_login">登录</string>
+
+    <string name="upload_listItem_textView">文本内容</string>
+    <string name="upload_dialog_textView">正在上传，请稍候...</string>
+    <string name="login_dialog_textView">正在登录，请稍候...</string>
+    <string name="delete_dialog_textView">正在删除，请稍候...</string>
 
     <!-- 主页 -->
     <string name="home_exit_hint">再按一次退出</string>
     <string name="home_nav_index">首页</string>
-    <string name="home_nav_found">发现</string>
+    <string name="home_nav_found">题目</string>
     <string name="home_nav_message">消息</string>
     <string name="home_nav_me">我的</string>
 

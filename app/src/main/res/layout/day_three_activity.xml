@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/mainPage_listView_background"
-    android:orientation="vertical"
-    android:id="@+id/test_fragment1">
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -16,9 +14,16 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="@string/home_nav_index"
+            android:text="@string/day_three_title"
             android:textColor="@color/mainPage_searchBox_color"
             android:textSize="@dimen/mainPage_top_textSize" />
     </RelativeLayout>
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="333"
+        android:textSize="50dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

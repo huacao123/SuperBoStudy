@@ -1,5 +1,8 @@
 <resources>
 
+    <integer name="login_page_maxLines">1</integer>
+    <integer name="login_page_maxLength">20</integer>
+
     <!-- 默认按钮的圆角大小 -->
     <dimen name="button_round_size">5dp</dimen>
 

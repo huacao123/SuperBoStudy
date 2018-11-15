@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppStartupTheme">
-        <activity android:name="com.example.superbostudy.activity.StartupActivity">
+        <activity android:name=".activity.StartupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.superbostudy.activity.MainActivity"/>
+        <activity android:name=".activity.MainActivity"/>
+
+        <activity android:name=".activity.LoginActivity"
+            android:theme="@style/AppDayTheme"/>
+
+        <activity android:name=".activity.DayOneActivity"
+            android:theme="@style/AppDayTheme"/>
+
+        <activity android:name=".activity.DayTwoActivity"
+            android:theme="@style/AppDayTheme"/>
+
+        <activity android:name=".activity.DayThreeActivity"
+            android:theme="@style/AppDayTheme"/>
+
+
 
     </application>
 

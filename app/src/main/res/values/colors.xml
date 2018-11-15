@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="colorDayTopic">#FFFFF0</color>
+
+    <color name="background_color">#DEDEDE</color>
+    <color name="login_usr_color">#636363</color>
+    <color name="login_gap_color">#D6D6D6</color>
+    <color name="login_pass_color">#A1A1A1</color>
+    <color name="login_button_text_color">#FFFFFF</color>
+    <color name="login_forget_color">#686868</color>
+
+
     <!-- 按钮按压时的颜色 -->
     <color name="colorButtonPressed">#1976d2</color>
     <!-- 按钮禁用时的颜色 -->
@@ -9,7 +19,7 @@
     <color name="colorLine">#ECECEC</color>
 
     <!-- mainPage-->
-    <color name="mainPage_top_color">#83C98B</color>
+    <color name="mainPage_top_color">#e19859</color>
     <color name="mainPage_search_color">#E2E2E2</color>
     <color name="mainPage_searchBox_color">#FFFFFF</color>
     <color name="mainPage_listView_background">#F4F4F4</color>

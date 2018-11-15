@@ -20,8 +20,22 @@
             android:textSize="@dimen/mainPage_top_textSize" />
     </RelativeLayout>
 
-    <com.example.superbostudy.utils.VerticalViewPager
-        android:id="@+id/vp_topic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"></com.example.superbostudy.utils.VerticalViewPager>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="点击1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/button2"
+        android:text="点击2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="点击3"/>
+
 </LinearLayout>
